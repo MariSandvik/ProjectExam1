@@ -1,0 +1,861 @@
+body {
+    background-color: black;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    width: 100%;
+    height: 560px;
+    background-image: url(images/moonpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+nav {
+    background-color: black;
+    overflow: hidden;
+}
+.navigation {
+    float: right;
+    padding: 20px 0px;
+}
+.navigation a {
+    float: left;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: none;
+}
+.navigation a:hover {
+    background-color: white;
+    color: black; 
+}
+.navigation a.active {
+    background-color: white;
+    color: black;
+}
+.intro h1 {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#starship {
+    float: left;
+    width: 50%;
+    height: 580px;
+    margin-top: 0px;
+    background-color: #2A495C;
+}
+#starship h1 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#spacecraft {
+    float: right;
+    width: 50%;
+    height: 580px;
+    margin-top: 0px;
+    background-color: #2A495C;
+}
+#spacecraft h3 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 49px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;    
+}
+p {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.spacexvideo-container iframe{
+    position: absolute;
+    top:1148px;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+#countdown {
+    float: right;
+    width: 100%;
+    margin-top: 10px;
+    height: 175px;
+}
+#countdown h1 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#countdown p {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#lunar {
+    float: left;
+    width: 50%;
+    background-color: #DB9004;
+    height: 450px;
+}
+#lunar h1 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#mars {
+    float: right;
+    width: 50%;
+    background-color: #DB9004;
+    height: 450px;   
+}
+#mars h1 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.picmoon {
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+.picmoon h3 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.moonpic {
+    width: 100%;
+}
+.picmars {
+    float: right;
+    width: 50%;
+    margin-top: 30px;
+}
+.picmars h3 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.marspic {
+    width: 100%;
+}
+#international {
+    margin-top: 1080px;
+    width: 100%;
+    background-color: #DB9004;
+    height: 240px;   
+}
+#international h1 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0px;;
+    font-family: 'Fjalla One', sans-serif;
+}
+#international p {
+    text-align: center;
+    margin-top: -20px;
+}
+#earthtoearth {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    background-color: #57688A;
+    height: 440px;
+}
+#earthtoearth h1 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#timecomparison {
+    float: right;
+    width: 50%;
+    margin-top: 10px;
+    background-color: #57688A;
+    height: 440px;
+}
+#timecomparison h1 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#timecomparison p {
+    line-height: 10px;
+}
+.iframe-container iframe{
+    position: absolute;
+    top: 570px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#contactpage {
+    width: 100%;
+    height: 400px;
+    background-image: url(images/launchearth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about p {
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: 130px;
+    line-height: 40px;
+    font-size: 27px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#contactinfo {
+    width: 50%;
+    float: left;
+    background-color: #181D32;
+    height: 280px;
+    margin-top: 20px;
+}
+#contactinfo h1 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#contactinfo h3 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#contactinfo p {
+    text-align: center;
+}
+#inquiries {
+    width: 50%;
+    float: right;
+    background-color: #181D32;
+    height: 280px;
+    margin-top: 20px;
+}
+#inquiries h1 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#inquiries h3 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#inquiries p {
+    text-align: center;
+}
+section {
+    margin-top: 320px;
+}
+section h1 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+input[type=submit] {
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #F2B300;
+    color: white;
+    padding: 15px; 20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+}
+.contactform {
+  background-color: #181D32;
+  padding: 10px 40px;
+}
+
+@media (max-width: 1180px){
+    header {
+        height: 450px;
+    }
+    .navigation {
+        padding: 10px 0px;
+    }
+    .navigation a {
+        padding: 10px 30px;
+        font-size: 28px;
+    }
+    p {
+        font-size: 14px;
+    }
+    #starship h1 {
+        font-size: 30px;
+    }
+    #spacecraft h3 {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .spacexvideo-container iframe{
+        top: 995px;
+        height: 70%;
+}   
+}
+
+@media (max-width: 936px){
+    .navigation {
+        padding: 5px 0px;
+    }
+    .navigation a {
+        padding: 7px 20px;
+        font-size: 25px;
+    }
+    p {
+        font-size: 13px;
+    }
+    #starship h1 {
+        font-size: 27px;
+    }
+    #spacecraft h3 {
+        font-size: 23px;
+        margin-top: 25px;
+    }
+    .spacexvideo-container iframe{
+        top: 1039px;
+        height: 60%;
+    }
+    #countdown {
+        height: 120px;
+    }
+    #countdown h1 {
+        font-size: 25px;
+    }
+    #countdown p {
+        font-size: 18px;
+    }
+    #lunar {
+        height: 425px;
+    }
+    #lunar h1 {
+        font-size: 27px;
+    }
+    #mars {
+        height: 425px;
+    }
+    #mars h1 {
+        font-size: 27px;
+    }
+    #international {
+        margin-top: 880px;
+        height: 230px;
+    }
+    #international h1 {
+        font-size: 27px;
+    }
+    #earthtoearth {
+        margin-top: 20px;
+        height: 440px;
+    }
+    #earthtoearth h1 {
+        font-size: 27px;
+    }
+    #timecomparison {
+        margin-top: 20px;
+        height: 440px;
+    }
+    #timecomparison h1 {
+        font-size: 27px;
+    }
+    #timecomparison p {
+        line-height: 12px;
+    }
+    .iframe-container iframe{
+        top: 520px;
+        height: 60%;
+    }
+    #contactpage {
+        height: 300px;
+    }
+    .about p {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 100px;
+        line-height: 30px;
+        font-size: 25px;
+    }
+    #contactinfo {
+        height: 280px;
+        margin-top: 10px;
+    }
+    #contactinfo h1 {
+        font-size: 27px;
+    }
+    #contactinfo h3 {
+        font-size: 18px;
+    }
+    #inquiries {
+        height: 280px;
+        margin-top: 10px;
+    }
+    #inquiries h1 {
+        font-size: 27px;
+    }
+    #inquiries h3 {
+        font-size: 18px;
+    }
+    section {
+        margin-top: 300px;
+    }
+    section h1 {
+        font-size: 27px;
+    }
+    input[type=text], select, textarea {
+        padding: 10px;
+        margin-top: 3px;
+        margin-bottom: 10px;
+    }
+    input[type=submit] {
+        padding: 10px; 15px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 745px) {
+    #starship {
+        width: 100%;
+        height: 260px;
+    }
+    #starship h1 {
+        font-size: 25px;
+        width: 90%;
+    }
+    #spacecraft {
+        width: 100%;
+        height: 420px;
+    }
+    #spacecraft h3 {
+        width: 90%;
+        font-size: 20px;
+    }
+    p {
+        width: 90%;
+        line-height: 24px;
+    }
+    .spacexvideo-container iframe{
+        top: 1138px;
+        height: 50%;
+    }
+    #countdown {
+        margin-top: 0px;
+        height: 100px;
+    }
+    #countdown h1 {
+        font-size: 20px;
+    }
+    #countdown p {
+        font-size: 16px;
+    }
+    #lunar {
+        width: 100%;
+        height: 260px;
+    }
+    #lunar h1 {
+        font-size: 25px;
+        width: 90%;
+    }
+    #mars {
+        width: 100%;
+        height: 280px;
+    }
+    #mars h1 {
+        font-size: 25px;
+        width: 90%;
+    }
+    #international {
+        margin-top: 1050px;
+        height: 230px;
+    }
+    #international h1 {
+        font-size: 25px;
+    }
+    .picmoon {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .picmoon h3 {
+        display: none;
+    }
+    .moonpic {
+    width: 100%;
+    }
+    .picmars {
+    display: none;
+    }
+    #earthtoearth {
+        width: 100%;
+        margin-top: 10px;
+        height: 250px;
+    }
+    #earthtoearth h1 {
+        font-size: 25px;
+        width: 90%;
+    }
+    #timecomparison {
+        width: 100%;
+        margin-top: 0px;
+        height: 410px;
+    }
+    #timecomparison h1 {
+        width: 90%;
+        font-size: 25px;
+    }
+    #timecomparison p {
+        line-height: 12px;
+    }
+    .iframe-container iframe{
+        top: 670px;
+        height: 50%;
+    }
+    .about p {
+        line-height: 25px;
+        font-size: 20px;
+    }
+    #contactinfo {
+        height: 260px;
+    }
+    #contactinfo h1 {
+        font-size: 25px;
+    }
+    #contactinfo h3 {
+        font-size: 16px;
+    }
+    #inquiries {
+        height: 260px;
+    }
+    #inquiries h1 {
+        font-size: 25px;
+    }
+    #inquiries h3 {
+        font-size: 16px;
+    }
+    section {
+        margin-top: 280px;
+    }
+    section h1 {
+        font-size: 25px;
+    }
+    input[type=text], select, textarea {
+        padding: 7px;
+        margin-top: 3px;
+        margin-bottom: 7px;
+    }
+    input[type=submit] {
+        width: 15%;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 585px) {
+    header {
+        height: 400px;
+    }
+    .navigation {
+        padding: 3px 0px;
+    }
+    .navigation a {
+        padding: 10px;
+        font-size: 20px;
+    }
+    #starship {
+        height: 270px;
+    }
+    #starship h1 {
+        font-size: 23px;
+        width: 95%;
+    }
+    #spacecraft {
+        width: 100%;
+        height: 370px;
+    }
+    #spacecraft h3 {
+        width: 95%;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    p {
+        width: 95%;
+        line-height: 20px;
+    }
+    .spacexvideo-container iframe{
+        top: 1048px;
+        height: 45%;
+    }
+    #countdown {
+        height: 90px;
+    }
+    #countdown h1 {
+        font-size: 18px;
+    }
+    #countdown p {
+        font-size: 14px;
+    }
+    #lunar {
+        height: 250px;
+    }
+    #lunar h1 {
+        font-size: 23px;
+        width: 95%;
+    }
+    #mars {
+        height: 270px;
+    }
+    #mars h1 {
+        font-size: 23px;
+        width: 95%;
+    }
+    #international {
+        margin-top: 940px;
+        height: 220px;
+    }
+    #international h1 {
+        font-size: 23px;
+    }
+    .picmoon {
+        margin-top: 0px;
+    }
+    #earthtoearth {
+        margin-top: 5px;
+        height: 240px;
+    }
+    #earthtoearth h1 {
+        font-size: 23px;
+        width: 95%;
+    }
+    #timecomparison {
+        height: 400px;
+    }
+    #timecomparison h1 {
+        width: 95%;
+        font-size: 23px;
+    }
+    #timecomparison p {
+        line-height: 10px;
+    }
+    .iframe-container iframe{
+        top: 660px;
+        height: 45%;
+    }
+    #contactinfo {
+        margin-top: 5px;
+        height: 230px;
+    }
+    #contactinfo h1 {
+        font-size: 23px;
+    }
+    #contactinfo h3 {
+        font-size: 15px;
+    }
+    #inquiries {
+        margin-top: 5px;
+        height: 230px;
+    }
+    #inquiries h1 {
+        font-size: 23px;
+    }
+    #inquiries h3 {
+        font-size: 14px;
+    }
+    section {
+        margin-top: 240px;
+    }
+    section h1 {
+        font-size: 23px;
+    }
+    input[type=submit] {
+        width: 20%;
+        padding: 7px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 350px;
+    }
+    .navigation a {
+        padding: 7px;
+        font-size: 15px;
+    }
+    .intro h1 {
+        margin-top: 100px;
+        font-size: 35px;
+    }
+    #starship {
+        height: 260px;
+    }
+    #starship h1 {
+        font-size: 20px;
+    }
+    #spacecraft {
+        height: 370px;
+    }
+    #spacecraft h3 {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    p {
+        width: 95%;
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .spacexvideo-container iframe{
+        top: 988px;
+        height: 40%;
+    }
+    #lunar {
+        height: 270px;
+    }
+    #lunar h1 {
+        font-size: 20px;
+    }
+    #mars {
+        height: 260px;
+    }
+    #mars h1 {
+        font-size: 20px;
+    }
+    #international {
+        margin-top: 850px;
+        height: 220px;
+    }
+    #international h1 {
+        font-size: 20px;
+    }
+    .picmoon {
+        margin-top: 0px;
+        width: 90%;
+        margin-left: 20px;
+    }
+    #earthtoearth {
+        height: 245px;
+    }
+    #earthtoearth h1 {
+        font-size: 20px;
+    }
+    #timecomparison {
+        height: 330px;
+    }
+    #timecomparison h1 {
+        font-size: 20px;
+    }
+    .iframe-container iframe{
+        top: 600px;
+        height: 40%;
+    }
+    #contactpage {
+        height: 250px;
+    }
+    .about p {
+        margin-top: 65px;
+        line-height: 20px;
+        font-size: 20px;
+    }
+    #contactinfo h1 {
+        font-size: 20px;
+    }
+    #inquiries h1 {
+        font-size: 20px;
+    }
+    section {
+        margin-top: 240px;
+    }
+    section h1 {
+        font-size: 20px;
+    }
+        input[type=submit] {
+        width: 40%;
+    }
+}
